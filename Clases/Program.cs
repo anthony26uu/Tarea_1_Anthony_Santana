@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarea_1_Anthony_Santana
+namespace Clases
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-           // NumeroPerfecto.FuncionNumero();
-
         }
     }
 }

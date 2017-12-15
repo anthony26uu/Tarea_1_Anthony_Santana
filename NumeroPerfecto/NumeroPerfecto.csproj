@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1746C6DE-BC96-45BB-8E87-7A5171CCAE39}</ProjectGuid>
+    <ProjectGuid>{CACB0CC4-C05F-48AD-B39B-67E8DC611413}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tarea_1_Anthony_Santana</RootNamespace>
-    <AssemblyName>Tarea_1_Anthony_Santana</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>NumeroPerfecto</RootNamespace>
+    <AssemblyName>NumeroPerfecto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,25 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FuncionNumero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClasesFigurasGeometricas\ClasesFigurasGeometricas.csproj">
-      <Project>{67b78fcd-0602-4b93-8308-d6109724ab5b}</Project>
-      <Name>ClasesFigurasGeometricas</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NumeroPerfecto\NumeroPerfecto.csproj">
-      <Project>{cacb0cc4-c05f-48ad-b39b-67e8dc611413}</Project>
-      <Name>NumeroPerfecto</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NumerosPares\NumerosPares.csproj">
-      <Project>{390896ac-5487-4204-9fcd-82c7ddfd5b39}</Project>
-      <Name>NumerosPares</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
